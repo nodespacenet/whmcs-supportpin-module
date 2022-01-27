@@ -11,14 +11,16 @@
     .icon-rotate {
         animation: fas-spin 2s infinite linear;
     }
+    {literal}
     @-webkit-keyframes fas-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
     @keyframes fas-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+    {/literal}
 </style>
 
 <div style="text-align: center;">
     <div style="font-size: 35px; margin: 50px;">{$lang_client_title}</div>
 
-    <div id="sPIN" style="font-size: 55px; color: greenyellow; margin: 50px;">{$tplVars.supportpin}</div>
+    <div id="sPIN" style="font-size: 55px; margin: 50px;">{$tplVars.supportpin}</div>
 
     <p>{$lang_client_info}</p>
 
